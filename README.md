@@ -1,30 +1,32 @@
-This project aims to predict stock prices using various machine learning algorithms. The model leverages historical stock data and other financial indicators to forecast future prices, helping investors make informed decisions.
 
-Features
-Historical data collection and preprocessing
-Multiple prediction algorithms (e.g., Linear Regression, LSTM, ARIMA)
-Data visualization for better understanding of trends and predictions
-Easy-to-use interface for running predictions and visualizing results
+# stock prediction
+**overview**
+* This project aims to predict stock prices using various machine learning algorithms. The model leverages historical stock data and other financial indicators to forecast future prices, helping investors make informed decisions.
 
-Data Collection
-Download historical stock data from your preferred source (e.g., Yahoo Finance) and save it in the data directory.
+**Features** 
+* Historical data collection and preprocessing 
+* multiple prediction algorithms (e.g., Linear Regression, LSTM, ARIMA)
+* Data visualization for better understanding of trends and predictions
+* Easy-to-use interface for running predictions and visualizing results
 
-stock-prediction/
+**usage**
+* Data Collection Download historical stock data from your preferred source (e.g., Yahoo Finance) and save it in the data directory.
+
+stock-prediction/ │
+* ├── data/ # Directory to store stock data
+│ 
+* ├── models/ # Directory containing model definitions
+│ 
+* ├── notebooks/ # Jupyter notebooks for experimentation 
 │
-├── data/                   # Directory to store stock data
+* ├── results/ # Directory to save prediction results and plots
 │
-├── models/                 # Directory containing model definitions
+* ├── scripts/ # Utility scripts for data processing, etc. 
 │
-├── notebooks/              # Jupyter notebooks for experimentation
+* ├── README.md # Project README
 │
-├── results/                # Directory to save prediction results and plots
+* ├── requirements.txt # Python dependencies
 │
-├── scripts/                # Utility scripts for data processing, etc.
+* ├── predict.py # Main script to run predictions 
 │
-├── README.md               # Project README
-│
-├── requirements.txt        # Python dependencies
-│
-├── predict.py              # Main script to run predictions
-│
-└── config.yaml             # Configuration file for model parameters
+* └── config.yaml # Configuration file for model parameters
